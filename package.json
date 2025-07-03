@@ -8,5 +8,21 @@
   },
   "scripts": {
     "proxy": "node proxy-server.js"
-  }
+  },
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "main": "proxy-server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leangvakhim/e-commerce-typescript-reactjs-proxy-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leangvakhim/e-commerce-typescript-reactjs-proxy-server/issues"
+  },
+  "homepage": "https://github.com/leangvakhim/e-commerce-typescript-reactjs-proxy-server#readme",
+  "description": ""
 }
