@@ -1,29 +1,19 @@
 {
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "main": "proxy-server.js",
+  "scripts": {
+    "start": "node proxy-server.js",
+    "proxy": "node proxy-server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "axios": "^1.10.0",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "form-data": "^4.0.3",
     "multer": "^2.0.1"
-  },
-  "scripts": {
-    "start": "node proxy-server.js",
-    "proxy": "node proxy-server.js"
-  },
-  "name": "proxy-server",
-  "version": "1.0.0",
-  "main": "proxy-server.js",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/leangvakhim/e-commerce-typescript-reactjs-proxy-server.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/leangvakhim/e-commerce-typescript-reactjs-proxy-server/issues"
-  },
-  "homepage": "https://github.com/leangvakhim/e-commerce-typescript-reactjs-proxy-server#readme",
-  "description": ""
+  }
 }
